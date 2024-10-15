@@ -1,0 +1,262 @@
+
+    <!DOCTYPE html>
+    <html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabella Modelli</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 20px;
+            }
+            table {
+                width: auto;
+                border-collapse: collapse;
+                margin: 20px 0;
+                font-size: 0.9em;
+                background-color: white;
+            }
+            th, td {
+                border: 1px solid #dddddd;
+                padding: 10px 15px;
+                text-align: left;
+            }
+            th {
+                background-color: #f0f0f0;
+                font-weight: bold;
+                text-align: center;
+            }
+            .table th {
+                background-color: #d9e2f3;
+            }
+            .keywords {
+                font-size: 0.9em;
+                color: #555;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            tr:nth-child(odd) {
+                background-color: #ffffff;
+            }
+            h2 {
+                color: #333;
+            }
+            h3 {
+                color: #333;
+                margin-top: 40px; /* Spaziatura tra le intestazioni */
+            }
+        </style>
+    </head>
+    <body>
+    <h2>Tabella Modelli</h2>
+
+    <h3>BERTopic</h3>
+    <table class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Topic ID</th>
+      <th>Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>bitch, shit, say, wat, fuck, aint, wit, mind, niggas, always</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>rt, rts, bird, ass, best, tweeps, lil, able, blue, da</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>twitter, tweet, retweets, tweets, tweeting, see, wishh, funniest, fun, shit</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>touchscreen, hand, surface, turns, touch, turn, researchers, omnitouch, body, want</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>siri, 4s, forbes, suppose, setup, iphone, asked, tweets, bought, connecting</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>ios5, ios, update, itunes, feature, upgrade, ipad, easter, eggs, updating</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>sandwich, ice, cream, officially, exciting, announces, dinner, day, official, perfect</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>nexus, galaxy, samsung, uk, three, instruments, carry, details, google, site</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>bed, sleep, night, goodnight, im, tired, morning, going, lt3, good</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>training, online, sign, partner, 2011, nov, 149, statt, nur, 8999</td>
+    </tr>
+  </tbody>
+</table>
+    <h3>G2T</h3>
+    <table class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Topic ID</th>
+      <th>Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>hate, shit, fuck, bitch, im, hell, bad, fucking, dont, damn</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>twitter, autopilot, gain, followers, put, let, facebook, siri, funniest, speech</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>iphone, ios5, apple, ipad, apps, update, restore, ios, battery, itunes</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>search, phone, searches, default, wait, omnitouch, encrypting, raise, begin, use</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>sandwich, cream, ice, nexus, galaxy, pictures, android, icecream, google, samsung</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>online, contact, project, webinar, personal, month, free, data, curate, history</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>addicted, never, wrong, rt, retweets, wishh, got, circles, dont, fixing</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>40, sandwich, cream, android, ice, sdk, nexus, galaxy, available, roundup</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>rt, follow, tweeps, join, reformat, tco, session, please, tuned, lt3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>jaiku, check, swear, texas, offlt3, sleeep, blue, poker, hemp, wat</td>
+    </tr>
+  </tbody>
+</table>
+    <h3>LDA</h3>
+    <table class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Topic ID</th>
+      <th>Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>rt, new, app, video, go, galaxy, nexus, thank, hour, phone</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>microsoft, rt, new, sandwich, cream, ice, search, phone, like, android</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>time, not, think, good, steve, ballmer, go, google, love, people</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>phone, rt, new, ballmer, apple, thank, use, not, go, try</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>rt, new, not, cream, ice, sandwich, nexus, get, galaxy, google</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>not, iphone, rt, microsoft, good, phone, app, ballmer, steve, time</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>rt, microsoft, android, new, not, like, phone, store, sandwich, window</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>new, rt, iphone, phone, app, get, window, not, know, nexus</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>iphone, rt, new, google, great, sandwich, cream, good, ice, thank</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>rt, cream, ice, sandwich, android, nexus, galaxy, iphone, need, twitter</td>
+    </tr>
+  </tbody>
+</table>
+    <h3>LDA-BERT</h3>
+    <table class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Topic ID</th>
+      <th>Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>rt, hour, 40, day, year, minute, new, second, android, time</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>rt, like, follow, lol, get, know, use, s, siri, need</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>rt, need, m, phone, bad, people, _, fuck, go, hate</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>sandwich, cream, ice, nexus, android, galaxy, 40, google, rt, new</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>not, rt, phone, like, update, know, app, will, work, m</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>microsoft, rt, window, phone, steve, new, store, free, search, windows</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>iphone, 4s, apple, app, rt, new, ipad, 4, ios5, ipod</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>rt, good, thank, great, love, store, awesome, free, like, nice</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>google, twitter, rt, search, go, let, follower, facebook, autopilot, gain</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>new, rt, phone, nexus, android, need, galaxy, get, great, tech</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
